@@ -1,5 +1,6 @@
 /*-----FONTS-----*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 /*-----RESETS-----*/
 * {
@@ -18,25 +19,40 @@ ul {
 
 /*-----CSS VARIABLES-----*/
 :root {
+	/*FONTS*/
 	--title-font: 'Poppins', sans-serif;
+	--text-font: 'DM Sans', sans-serif;
+
+	/*COLORS*/
+	--primary-color: hsl(231, 24%, 16%);
+	--secondary-color: hsl(231, 15%, 17%);
+	--terciary-color: hsl(231, 24%, 28%);
+	--light-red: hsl(0, 77%, 65%);
+	--white: hsl(0, 0%, 100%);
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 /*-----HEADER-----*/
 header {
-	background-color: hsl(231, 24%, 16%);
+	background-color: var(--primary-color);
 	height: 3.75rem;
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	position: fixed;
+	z-index: 10;
 }
 
 header a {
-	color: hsl(0, 0%, 100%);
+	color: var(--white);
 	font: 700 2rem var(--title-font);
 }
 
 header a span {
-	color: hsl(0, 77%, 65%);
+	color: var(--light-red);
 }
 
 header ul {
@@ -51,7 +67,7 @@ header ul li a {
 	font-size: 1rem;
 }
 
-.container {
+header nav {
 	max-width: 75rem;
 	width: 100%;
 	height: inherit;
@@ -63,3 +79,110 @@ header ul li a {
 }
 
 /*-----HOME-----*/
+#Home {
+	background-image: url('Images/bg-home.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	padding-top: 3.75rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.filter {
+	height: 100vh;
+	width: 100%;
+	background-color: #1f1816;
+	opacity: 0.56;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#Home img {
+	height: 13rem;
+	width: 13rem;
+	clip-path: circle();
+	z-index: 1;
+	margin-top: 3.5rem;
+	margin-bottom: 2rem;
+}
+
+#Home h1 {
+	font: 700 3.5rem var(--title-font);
+	color: var(--light-red);
+	text-align: center;
+	line-height: 3rem;
+	z-index: 1;
+	margin: 1rem 0;
+}
+
+#Home h2 {
+	font: 500 1.5rem var(--text-font);
+	color: var(--white);
+	z-index: 1;
+}
+
+/*-----ABOUT-----*/
+#About {
+	padding: 4.375rem 0;
+	background-color: var(--secondary-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#About img {
+	height: 18rem;
+	padding: 0.5rem;
+	border: 3px solid var(--light-red);
+}
+
+#About .text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#About h2 {
+	font: 700 3rem var(--title-font);
+	color: var(--white);
+}
+
+#About h2 span {
+	display: inline-block;
+	border-bottom: 3px solid var(--light-red);
+	height: 4rem;
+}
+
+#About p {
+	color: var(--white);
+	font: 500 1.125rem var(--text-font);
+	max-width: 24rem;
+	padding: 1rem;
+}
+
+#About a {
+	background-color: var(--light-red);
+	color: var(--white);
+	padding: 1rem 2rem;
+	font: 700 1rem var(--title-font);
+	border-radius: 0.5rem;
+	transition: color 0.5s ease;
+	margin-top: 1rem;
+	box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.4);
+}
+
+#About a:hover {
+	color: var(--primary-color);
+}
+
+/*-----PROJECTS-----*/
+
+/*-----BLOG-----*/
+
+/*-----CONTACT-----*/
