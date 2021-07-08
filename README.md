@@ -28,3 +28,22 @@ Personal web portfolio made using HTML, CSS and Javascript.
 
 -   Structured the swiper modules.
 -   Removed all swiper related content due to incompatibilities.
+
+### July 5, 2021
+
+-   Tried to add **_lightslider_** to the project but it didn't work either. Gotta keep searching for another slider solution.
+-   Tried **_owlCarousel_** as well, but it also didn't work.
+-   Discarded the idea of putting a carousel.
+
+### July 6, 2021
+
+-   Decided to keep the hover style to the project cards.
+
+### July 7, 2021
+
+-   Structured the **_contact_** section.
+
+### July 8, 2021
+
+-   Styled and finished the **_contact_** section.
+-   Setted the responsiveness of the page.
