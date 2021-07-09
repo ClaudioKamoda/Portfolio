@@ -47,3 +47,8 @@ Personal web portfolio made using HTML, CSS and Javascript.
 
 -   Styled and finished the **_contact_** section.
 -   Setted the responsiveness of the page.
+
+### July 9, 2021
+
+-   Styled the menu on mobile mode.
+-   Made the logic to activate the menu on mobile view.
