@@ -52,3 +52,9 @@ Personal web portfolio made using HTML, CSS and Javascript.
 
 -   Styled the menu on mobile mode.
 -   Made the logic to activate the menu on mobile view.
+
+### July 11, 2021
+
+-   Added header effect when on top.
+-   Added github icon on project button.
+-   Styled the arrow down on the **_home_** section.
