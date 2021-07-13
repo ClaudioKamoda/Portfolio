@@ -58,3 +58,7 @@ Personal web portfolio made using HTML, CSS and Javascript.
 -   Added header effect when on top.
 -   Added github icon on project button.
 -   Styled the arrow down on the **_home_** section.
+
+### July 12, 2021
+
+-   Fixed some small bugs.
