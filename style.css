@@ -164,7 +164,7 @@ header ul.show a {
 	background-image: url('Images/bg-home.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	/*height: 100vh;*/
 	width: 100%;
 	position: relative;
 	padding-top: 3.75rem;
@@ -175,7 +175,7 @@ header ul.show a {
 }
 
 .filter {
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	background-color: #1f1816;
 	opacity: 0.56;
@@ -237,7 +237,7 @@ header ul.show a {
 }
 
 #About img {
-	height: 19rem; /*17 on mobile*/
+	height: 19rem;
 	padding: 0.5rem;
 	border: 3px solid var(--light-red);
 	margin-right: 1rem;
@@ -284,8 +284,8 @@ header ul.show a {
 
 .card-img {
 	grid-area: image;
-	border-top-left-radius: 0.875rem;
-	border-top-right-radius: 0.875rem;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
 	background-image: url('Images/bg-home.jpg');
 	background-size: cover;
 }
@@ -375,8 +375,11 @@ header ul.show a {
 
 .icones ul li a {
 	color: var(--white);
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 2rem;
+	width: 2rem;
 }
 
 .icones ul li:hover {
