@@ -290,12 +290,21 @@ header ul.show a {
 	background-size: cover;
 }
 
+.card-img-doe {
+	background-image: url('Images/doe-gif.gif');
+}
+
+.card-img-pizza {
+	background-image: url('Images/nlw-print.png');
+}
+
 .card-text {
 	grid-area: text;
-	margin: 0.5rem;
+	padding: 0.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-top: 1px solid hsl(231, 24%, 16%);
 }
 
 .card-text h3 {

@@ -62,3 +62,7 @@ Personal web portfolio made using HTML, CSS and Javascript.
 ### July 12, 2021
 
 -   Fixed some small bugs.
+
+### July 14, 2021
+
+- Changed the texts to real ones.
