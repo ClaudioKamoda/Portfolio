@@ -298,6 +298,10 @@ header ul.show a {
 	background-image: url('Images/nlw-print.png');
 }
 
+.card-img-pomodoro {
+	background-image: url('Images/pomodoro.gif');
+}
+
 .card-text {
 	grid-area: text;
 	padding: 0.5rem;
