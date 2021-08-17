@@ -302,6 +302,11 @@ header ul.show a {
 	background-image: url('Images/pomodoro.gif');
 }
 
+.card-img-pokemon {
+	background-image: url('Images/pokemon.gif');
+	background-position: center;
+}
+
 .card-text {
 	grid-area: text;
 	padding: 0.5rem;
