@@ -307,6 +307,10 @@ header ul.show a {
 	background-position: center;
 }
 
+.card-img-todolist{
+	background-image: url('Images/todo.gif');
+}
+
 .card-text {
 	grid-area: text;
 	padding: 0.5rem;
