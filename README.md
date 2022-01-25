@@ -70,3 +70,7 @@ Personal web portfolio made using HTML, CSS and Javascript.
 ### August 21, 2021
 
 -   Added link to **_Medium_** page.
+
+### January 25, 2022:
+
+-   Added new project(Restaurant App) to project section.
