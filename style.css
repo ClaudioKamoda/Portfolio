@@ -307,8 +307,12 @@ header ul.show a {
 	background-position: center;
 }
 
-.card-img-todolist{
+.card-img-todolist {
 	background-image: url('Images/todo.gif');
+}
+
+.card-img-restaurant {
+	background-image: url('Images/restaurant.gif');
 }
 
 .card-text {
