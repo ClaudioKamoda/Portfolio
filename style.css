@@ -315,6 +315,10 @@ header ul.show a {
 	background-image: url('Images/restaurant.gif');
 }
 
+.card-img-interest {
+	background-image: url('Images/interest.PNG');
+}
+
 .card-text {
 	grid-area: text;
 	padding: 0.5rem;
